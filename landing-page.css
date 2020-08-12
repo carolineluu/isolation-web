@@ -1,0 +1,139 @@
+@import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #FFF;
+    margin: 10px;
+}
+
+.inner-header {
+  width: 1340px;
+  height: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+.logo-container {
+  height: 100%;
+  display: table;
+  float: left;
+  max-width: 100%;
+}
+
+.logo-container img {
+  height: 50%;
+  display: table-cell;
+  padding: 12px 0;
+  background-color: #FFF;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  float: left;
+  display: table;
+  height: 100%;
+  padding: 0px 20px;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  font-family: "Work Sans";
+  font-size: 16px;
+}
+
+.navigation a:last-child {
+  padding-right: 0px;
+}
+
+.body-grid {
+  width: 1000px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1 fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  grid-auto-rows: minmax(200px, auto);
+  float: left;
+}
+/*
+.body-grid-1-text {
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.body-grid-1-image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.body-grid-2-text {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.body-grid-2-image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.body-grid-3-text {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.body-grid-3-image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+*/
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #202020;
+}
+
+h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+.body-text {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+.btn {
+  padding: 0px 20px;
+  height: 40px;
+  font-size: .8em;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #FFF;
+  text-transform: uppercase;
+  border: transparent;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
+}
