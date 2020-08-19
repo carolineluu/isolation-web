@@ -1,0 +1,146 @@
+@import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap";
+
+/* global */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* header and navigation */
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #FFF;
+    margin: 10px;
+}
+
+.inner-header {
+  width: 1340px;
+  height: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+.logo-container {
+  height: 100%;
+  display: table;
+  float: left;
+  max-width: 100%;
+}
+
+.logo-container img {
+  height: 50%;
+  display: table-cell;
+  padding:;
+  background-color: transparent;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  float: left;
+  display: table;
+  height: 100%;
+  padding: 0px 20px;
+}
+
+.navigation a li {
+  display: table-cell;
+  height: 100%;
+  font-family: "Work Sans";
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.navigation a:last-child {
+  padding-right: 0px;
+}
+
+/* page content */
+
+section {
+  padding-left: 31.6%;
+  padding-right: 31.6%;
+  margin: 40px 0 auto 0;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.form-group {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #7B7B7B;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input {
+  background: #F2F3F3;
+  border: none;
+  border-radius: 12px;
+  height: 55px;
+}
+
+select {
+  background: #F2F3F3;
+  border: none;
+}
+
+.add-a-household {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.add-members {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.button {
+  padding-left: 204.015px;
+  padding-right: 203.015px;
+}
+
+.button-content {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  max-width: 277px;
+  height: 75px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #FFF;
+  text-transform: uppercase;
+  border: transparent;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
+}

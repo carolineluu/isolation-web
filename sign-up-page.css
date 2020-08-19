@@ -12,8 +12,19 @@
       width: 100%;
       height: 80px;
       display: block;
+      background-color: transparent;
+
+.header img{
+    padding: 0px;
+    margin: 0px;
+    background-position: left top;
+    background-attachment: fixed;
+}
+/*
       background-color: #FFF;
-      margin: 10px;
+      background-repeat: none;
+      background-position: left top;
+      */
   }
   
   .inner-header {
@@ -31,27 +42,39 @@
   }
 
   .logo-container img {
-    height: 50%;
+    height: 40%;
     display: table-cell;
     padding: 12px 0;
-    background-color: #FFF;
+    position    
   }
-
-img {
-    position: relative;
-    display: none;
-    float: left;
+/*
+.img-left-panel {
+    max-width: 480px;
+    min-height: 100vh;
+    opacity: 80%;
+    padding-left: 0px;
+    padding-top: 0px;
+    position: absolute;
+    background-position: left top;
 }
+*/
+
 
 h1 {
     font-family: "Work Sans";
     font-size: 40px;
     font-weight: 200;
+    text-align: center;
+    color: #3D3D3D;
 }
 
 h2 {
     font-family: "Source Sans Pro";
     font-size: 20px;
+    font-weight: 200;
+    padding: 5px 0 50px 0;
+    text-align: center;
+    color: #3D3D3D;
 }
 
 body {
@@ -59,15 +82,46 @@ body {
     font-size: 16px;
 }
 
-.button-sign-up {
-    padding: 0px 20px;
-    height: 40px;
-    font-size: .8em;
-    font-weight: 600;
+.form-container {
+    min-height: 100vh;
+    max-width:  960px;
+    margin: 0 0 0 auto;
+    padding: 20px 100px auto 100px;
+}
+
+.form-group {
+    padding: 0 0 20px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #7B7B7B;
+    padding-left: 22%;
+}
+.form-control {
+    margin: 10px 0;
+    padding: 0 10px;
+    display: block;
+    width: 502px;
+    height: 55px;
+    background-color: #F2F3F3;
+    border-radius: 12px;
+    border: none;
+}
+
+.form-group:hover {
+    border: 2px;
+    border-color: #0075FF;
+}
+
+.button {
+    width: 520px;
+    padding: 0;
+    height: 75px;
+    font-size: 22px;
+    font-weight: 400;
     letter-spacing: 1.5px;
     color: #FFF;
     text-transform: uppercase;
+    border: transparent;
     border-radius: 10px;
-    border: none;
-    background: linear-gradient(45deg, #1DC5E9, #1DE0C4); 
+    background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
 }

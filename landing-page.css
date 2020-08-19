@@ -1,11 +1,14 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap";
 
+/* global */
 * {
   margin: 0px;
   padding: 0px;
   list-style: none;
   text-decoration: none;
 }
+
+/* header and navigation */
 
 .header {
     width: 100%;
@@ -16,10 +19,10 @@
 }
 
 .inner-header {
-  width: 1340px;
+  width: 1333px;
   height: 100%;
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .logo-container {
@@ -32,7 +35,7 @@
 .logo-container img {
   height: 50%;
   display: table-cell;
-  padding: 12px 0;
+  padding: 20px 0;
   background-color: #FFF;
 }
 
@@ -60,80 +63,58 @@
   padding-right: 0px;
 }
 
-.body-grid {
-  width: 1000px;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1 fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  grid-auto-rows: minmax(200px, auto);
-  float: left;
-}
-/*
-.body-grid-1-text {
-  grid-column: 1;
-  grid-row: 1 / 2;
+/* d3 map read only view */
+
+#d3-map {
+  width: 1333px; 
+  height: 471px; 
+  margin: 0 auto;
+  background-color: #F2F3F7;
+  order: none; 
+  position: relative;
 }
 
-.body-grid-1-image {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+/* body */
+
+#content {
+  margin: 2% 15.20%;
 }
 
-.body-grid-2-text {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+#text- {
+  width: 514px;
+  height: 277px;
 }
 
-.body-grid-2-image {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.body-grid-3-text {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.body-grid-3-image {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-*/
 body {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.5em;
   color: #202020;
 }
 
 h2 {
   font-size: 32px;
-  font-style: normal;
   font-weight: 300;
   text-transform: uppercase;
-  line-height: 2em;
-}
-
-.body-text {
-  width: 1000px;
-  height: 100%;
-  display: block;
-  margin: 0px auto;
+  line-height: 1em;
 }
 
 .btn {
   padding: 0px 20px;
   height: 40px;
-  font-size: .8em;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 400;
   letter-spacing: 1.5px;
   color: #FFF;
   text-transform: uppercase;
   border: transparent;
   border-radius: 10px;
   background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
+}
+
+#sign-up-banner img{
+  width: 1440px;
+  height: 100vh;
 }
