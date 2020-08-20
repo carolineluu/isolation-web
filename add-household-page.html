@@ -28,35 +28,52 @@
     <h1>
     Add your household
 </h1>
-<description>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien.
+<description id="description">
+    To add your household to the map, enter your household's name and zip code in the fields below. Your household name is a unique identifier you can use to recognize your household on the map.
 </description>
+<div class="tooltip">
+        <img src="tooltip.png">
+        <span class="tooltiptext">You may stay anonymous while keeping track of your interactions.  Your network can find you with your email or household name.</span>
+        </div>
 <div class="form-group">
-    <label>Household Name
+    <div class="form-control-house">
+        <label>Household Name
         <input type="text"
         name="household-name"
         id="household-name"
-        value="">
+        value="Anonymous Peacock">
     </label>
+        
+    </div>
+    <br>
+    <div class="form-control-zip">
     <label>Zip Code
-        <input type="number"
-        name="zip-code"
-        id="zip-code"
+        <input id="zip-code" 
+        name="zip-code" 
+        type="text" 
+        pattern="[0-9]*"
         value="">
     </label>
+    </div>
 </div>
 </div>
 <div class="add-members">
 <h2>
-    Household Members
+    Add Household Members
 </h2>
 <div class="form-group">
+    <div class="form-control-members">
     <label>Member
         <input type="text"
         name="member-number"
         id="member-number"
-        value="">
+        value="Person 1">
     </label>
+    </div>
+    <div class="form-control-plus-minus">
+    <img id=minus src="minus-sign.png" alt="remove a member">
+    <img src="plus-sign.png" alt="add a member">
+    </div>
     <!--
     <label>COVID Status
         <select id="dropdown" name="role" class="form-control" required>
@@ -69,6 +86,7 @@
 -->
 </div>
 </div>
+<br>
 <div class="button">
 <button class="button-content">
    Add Household

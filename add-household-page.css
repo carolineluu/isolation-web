@@ -94,8 +94,27 @@ h2 {
   font-weight: 400;
   text-transform: uppercase;
   color: #7B7B7B;
-  padding-top: 20px;
+  padding-top: 35px;
   padding-bottom: 20px;
+  display: flex;
+}
+
+.form-control-house {
+  flex: 2;
+}
+
+.form-control-house input[type=text] {
+  width: 350px;
+  padding-left: 5px;
+}
+
+.form-control-members input[type=text] {
+  width: 350px;
+  padding-left: 5px;
+}
+
+.form-control-zip {
+  flex: 1;
 }
 
 input {
@@ -103,11 +122,12 @@ input {
   border: none;
   border-radius: 12px;
   height: 55px;
-}
-
-select {
-  background: #F2F3F3;
-  border: none;
+  font-size: 16px;
+  font-family: inherit;
+  color: #8A8A8A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .add-a-household {
@@ -118,14 +138,19 @@ select {
   padding-bottom: 30px;
 }
 
-.add-members {
-  padding-top: 40px;
-  padding-bottom: 30px;
+.form-control-plus-minus{
+  display: block;
+  padding: inherit;
+  margin: 10px 85px;
+}
+
+#minus {
+  margin-right: 30px;
 }
 
 .button {
   padding-left: 204.015px;
-  padding-right: 203.015px;
+  padding-right: 204.015px;
 }
 
 .button-content {
@@ -143,4 +168,50 @@ select {
   border: transparent;
   border-radius: 10px;
   background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
+}
+
+/* tooltip in Household Name */
+
+.tooltip img {
+  position: relative;
+  display: flex;
+  padding-top: 10px;/* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  top: 208px;
+  left: 600px;
+  background-color: #3D3D3D;
+  color: #fff;
+  text-align: center;
+  padding: 30px 30px;
+  border-radius: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  text-transform: none;
+
+  
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #3D3D3D transparent transparent;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

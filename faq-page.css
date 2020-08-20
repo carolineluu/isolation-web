@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap";
 
 /* global */
 * {
@@ -35,7 +36,7 @@
 .logo-container img {
   height: 50%;
   display: table-cell;
-  padding: 20px 0;
+  padding: 0;
   background-color: transparent;
 }
 
@@ -63,61 +64,51 @@
   padding-right: 0px;
 }
 
-/* d3 map read only view */
+/* page content */
 
-#d3-map {
-  width: 1333px; 
-  height: 471px; 
-  margin: 0 auto;
-  background-color: #F2F3F7;
-  order: none; 
-  position: relative;
+section {
+  padding-left: 31.6%;
+  padding-right: 31.6%;
+  margin: 60px 0 auto 0;
+  display: block;
 }
 
-/* body */
-
-#content {
-  margin: 2% 15.20%;
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 30px;
 }
 
-#text- {
-  width: 514px;
-  height: 277px;
+.paragraph-container {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #202020;
+
+}
+
+.paragraph-items {
+  padding-bottom: 1.5em;
+}
+
+/*
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.6;
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.5em;
-  color: #202020;
+  font-family: "Source Sans Pro";
+    font-size: 16px;
 }
-
-h2 {
-  font-size: 32px;
-  font-weight: 300;
-  text-transform: uppercase;
-  line-height: 1em;
-}
-
-.button {
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  height: 40px;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  color: #FFF;
-  text-transform: uppercase;
-  border: transparent;
-  border-radius: 10px;
-  background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
-}
-
-#sign-up-banner img{
-  width: 100%;
-  height: auto;
-}
+*/
