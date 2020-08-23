@@ -12,56 +12,56 @@
 /* header and navigation */
 
 .header {
-    width: 100%;
-    height: 80px;
-    display: block;
-    background-color: #FFF;
-    margin: 10px;
+  width: 100%;
+  height: 20vh;
+  max-height: 80px;
+  display: block;
+  background-color: #FFF;
+  margin: 10px;
 }
 
 .inner-header {
-  width: 1333px;
-  height: 100%;
-  display: block;
-  margin: 0px auto;
+width: 90%;
+height: 100%;
+display: block;
+margin: 0px auto;
 }
 
 .logo-container {
-  height: 100%;
-  display: table;
-  float: left;
-  max-width: 100%;
+height: 100%;
+display: table;
+float: left;
+max-width: 100%;
 }
 
 .logo-container img {
-  height: 50%;
-  display: table-cell;
-  padding: 0;
-  background-color: transparent;
+height: 50%;
+display: table-cell;
+padding:;
+background-color: transparent;
 }
 
 .navigation {
-  float: right;
-  height: 100%;
+float: right;
+height: 100%;
 }
 
 .navigation a {
-  float: left;
-  display: table;
-  height: 100%;
-  padding: 0px 20px;
+float: left;
+display: table;
+height: 100%;
+padding: 2vw 2vw;
 }
 
 .navigation a li {
-  display: table-cell;
-  vertical-align: middle;
-  height: 100%;
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
+display: table-cell;
+height: 100%;
+font-family: "Work Sans";
+font-size: 1em;
 }
 
 .navigation a:last-child {
-  padding-right: 0px;
+padding-right: 0px;
 }
 
 /* page content */
