@@ -6,9 +6,10 @@
 
 <header>
     <div class="header">
+        <!-- omit
         <div class="img-left-panel">
             <img src="node-left-panel.png" alt="Node Illustration">
-        </div>
+        </div>-->
         <div class="inner-header">
             <div class="logo-container">
                 <img src= "logo.png" alt="Logo for Isolation Web">
@@ -17,19 +18,24 @@
             </div>
 </header>
 
-<!--
-<div class="img-left-panel">
-    <img src="node-left-panel.png" alt="Node Illustration">
-</div>
--->
+
+
+
+
 <body>
+    <div class="container">
+        
+        <!--
+        <div class="img-left-panel">
+        <img src="node-left-panel.png" alt="Node Illustration">
+        </div>-->
     <div class="form-container">
         <h1>Create Account</h1>
         <br>
         <h2>Already have an account? <span style="color:#1DC5E9; text-decoration:underline;"><strong>Sign In</strong></span>
         </h2>
     <!--Email and Password inputs-->
-    <form id="sign-up-form">
+        <form class="sign-up-form">
         <div class="form-group">
             <label id="email-label" for="email">Email</label>
             <input
@@ -53,9 +59,10 @@
             required
             />
         </div>
-    <br>
-    <div class="button">
-    <button class="button-sign-up">SIGN UP</button>
-</div>
+        <br>
+        <div class="button">
+        <button class="button-sign-up">SIGN UP</button>
+        </form>
+    </div>
     </div>
 </body>

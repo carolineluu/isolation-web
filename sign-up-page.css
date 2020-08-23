@@ -6,27 +6,29 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    
   }
   
-  .header {
+.header {
       width: 100%;
       height: 80px;
       display: block;
-      background-color: transparent;
+      background-color: transparent;  
+}
 
+/*
 .header img{
     padding: 0px;
     margin: 0px;
     background-position: left top;
     background-attachment: fixed;
 }
-/*
       background-color: #FFF;
       background-repeat: none;
       background-position: left top;
-      */
+      
   }
-  
+ */ 
   .inner-header {
     width: 1340px;
     height: 100%;
@@ -45,62 +47,75 @@
     height: 40%;
     display: table-cell;
     padding: 12px 0;
-    position    
+    position:;    
   }
-/*
-.img-left-panel {
-    max-width: 480px;
-    min-height: 100vh;
-    opacity: 80%;
-    padding-left: 0px;
-    padding-top: 0px;
-    position: absolute;
+
+.img-left-panel img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
     background-position: left top;
-}
-*/
-
-
-h1 {
-    font-family: "Work Sans";
-    font-size: 40px;
-    font-weight: 200;
-    text-align: center;
-    color: #3D3D3D;
+    background-attachment: fixed;/*
+    background-image: url(node-left-panel.png);
+    
+    */
 }
 
-h2 {
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    font-weight: 200;
-    padding: 5px 0 50px 0;
-    text-align: center;
-    color: #3D3D3D;
-}
-
-body {
-    font-family: "Source Sans Pro";
-    font-size: 16px;
+.container {
+    display: ;
 }
 
 .form-container {
     min-height: 100vh;
     max-width:  960px;
     margin: 0 0 0 auto;
-    padding: 20px 100px auto 100px;
+    padding: 20px 25% auto 25%;
+}
+
+h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    color: #3D3D3D;
+    padding: inherit;
+    padding-top: 60px;
+}
+
+h2 {
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: #3D3D3D;
+    padding: inherit;
+    padding-bottom: 50px;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
 }
 
 .form-group {
-    padding: 0 0 20px 0;
     text-transform: uppercase;
     font-size: 20px;
     color: #7B7B7B;
-    padding-left: 22%;
+    
+    font-family: "Work Sans", sans-serif;
 }
+
+.sign-up-form {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 .form-control {
     margin: 10px 0;
-    padding: 0 10px;
     display: block;
-    width: 502px;
+    width: 100%;
     height: 55px;
     background-color: #F2F3F3;
     border-radius: 12px;
@@ -112,16 +127,41 @@ body {
     border-color: #0075FF;
 }
 
-.button {
-    width: 520px;
-    padding: 0;
-    height: 75px;
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    color: #FFF;
-    text-transform: uppercase;
-    border: transparent;
-    border-radius: 10px;
-    background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
+.button-sign-up {
+  padding: 20px 0;
+  min-height: 40px;
+  height: auto;
+  width: 100%;
+  /* min-height and height */
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #FFF;
+  text-transform: uppercase;
+  border: transparent;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #1DC5E9, #1DE0C4);
 }
+
+
+/*
+.img-left-panel {
+    max-width: 480px;
+    max-height: 100vh;
+    opacity: 80%;
+    position: absolute;
+    background-position: left top;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+*/
